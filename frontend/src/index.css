@@ -1,0 +1,55 @@
+/* src/index.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;600&display=swap');
+
+body{
+    /* font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
+    margin: 5;
+    font-family: Sans-Serif;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 2.5;
+    line-height: 1.5;
+    color: #292b2c;
+    background-color: #fff;
+}
+th {
+    padding: 5px;
+    text-align: center;
+  }
+  table, th, td ,tr{
+    border-bottom: 1px solid black;
+    border: "2px black" ;
+    border-right:1px solid black
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+   }
+   
+  td {
+    padding: 15px 75px;
+  }
+.App{
+    margin: 5 auto;
+   padding: 5 2em;
+   border: 1px solid #ddd;
+   padding: 8px;
+   background-color: #cbdfd240;
+   text-align: left;
+}
+.searchButton {
+  width: 50px;
+  height: 47px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}

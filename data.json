@@ -1,0 +1,75 @@
+[
+    {
+      "employee": "62000",
+      "foundedyear": 1968,
+      "keywords": [
+        "technology",
+        "Security"
+      ],
+      "location": "Mumbai",
+      "name": "TCS",
+      "revenue": "$614 B"
+    },
+    {
+      "employee": "343234",
+      "foundedyear": 1981,
+      "keywords": [
+        "technology"
+      ],
+      "location": "Pune",
+      "name": "Infosys",
+      "revenue": "456.5 Cr"
+    },
+    {
+      "employee": "5000",
+      "foundedyear": 2009,
+      "keywords": [
+        "Investment"
+      ],
+      "location": "Noida",
+      "name": "Upstox",
+      "revenue": "1000 Cr"
+    },
+    {
+      "employee": "185000",
+      "foundedyear": 2002,
+      "keywords": [
+        "JobSearch",
+        "Technology"
+      ],
+      "location": "Banglore",
+      "name": "LinkedIn",
+      "revenue": "$13.8 B"
+    },
+    {
+      "employee": "124800",
+      "foundedyear": 1968,
+      "keywords": [
+        "Technology"
+      ],
+      "location": "Banglore",
+      "name": "Intel",
+      "revenue": "5423 Cr"
+    },
+    {
+      "employee": "245000",
+      "foundedyear": 1945,
+      "keywords": [
+        "Technology"
+      ],
+      "location": "Pune",
+      "name": "Wipro",
+      "revenue": "89760 Cr"
+    },
+    {
+      "employee": "961",
+      "foundedyear": 2018,
+      "keywords": [
+        "Technology",
+        "Investment"
+      ],
+      "location": "Banglore",
+      "name": "Cred",
+      "revenue": "1400 Cr"
+    }
+  ]
