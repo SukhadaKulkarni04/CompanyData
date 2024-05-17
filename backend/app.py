@@ -15,13 +15,13 @@ mongo = PyMongo(app)
 companies_collection = mongo.db.companydata
 
 # API endpoint to fetch all companies
-@app.route("/api/companies", methods=['GET'])
+@app.route("https://companydata-production.up.railway.app/api/companies", methods=['GET'])
 def get_companies():
     companies = list(companies_collection.find({}, {'_id': 0}))
     return jsonify(companies)
 
 # API endpoint to search companies by name
-@app.route("/api/companies/search", methods=["GET"])
+@app.route("https://companydata-production.up.railway.app/api/companies", methods=["GET"])
 def search_companies():
     query = request.args.get('q')
     companies = list(companies_collection.find({}, {'_id': 0}))
