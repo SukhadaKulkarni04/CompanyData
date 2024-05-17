@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # Configure MongoDB
 CORS(app)
-app.config['MONGO_URI'] = 'mongodb://localhost:27017'
+app.config['MONGO_URI'] = 'mongodb+srv://sukhadakulkarni9214:i2XIcTIKEvLN1hLd@cluster0.glphkoa.mongodb.net/'
 mongo = PyMongo(app)
 
 # Define the company collection
